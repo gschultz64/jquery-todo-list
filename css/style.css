@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.box {
+  display: inline-block;
+  height: 200px;
+  width: 60%;
+  margin: 5%;
+  background-size: 100% 100%;
+  background-color: rosybrown;
+  color: beige;
+  font-family: "Kalam", cursive;
+}
+
+.third {
+  text-decoration: line-through;
+}
+
+ul {
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  margin-right: 5%;
+}
+
+input {
+  margin: 1%;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+  box-shadow: 2px 2px #c8c4c4;
+}

@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>jQuery To-Do List</title>
+  <link href="https://fonts.googleapis.com/css?family=Kalam|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
 </head>
+
 <body>
-  <h1>Hello Front-End</h1>
+  <h1>jQuery To-Do List</h1>
+  <div class="container">
+    <div class="box">
+      <h2>Create your to-do list here:</h2>
+      <ul class="to-do">
+      </ul>
+    </div>
+    <form>
+      <h3>Add an item to your to-do list</h3>
+      <label>Item name:
+        <input type="text" name="item-name" class="input" />
+      </label>
+      <br/>
+      <label>Item name:
+        <input type="text" name="item-name" class="input"/>
+      </label>
+      <br/>
+      <label>Item name:
+        <input type="text" name="item-name"/>
+      </label>
+      <br/>
+      <button type="submit">Update List</button>
+    </form>
+  </div>
 </body>
+
 </html>
